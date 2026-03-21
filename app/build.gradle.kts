@@ -41,8 +41,12 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.cardview)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation("com.github.msayan:tutorial-view:v1.0.10")
+    implementation("com.google.mlkit:text-recognition:16.0.1")
+// To recognize Latin script
+    implementation("com.google.android.gms:play-services-mlkit-text-recognition:19.0.1")
 }
